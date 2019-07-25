@@ -11,7 +11,7 @@
 
 1. 在Bokeh1.0版本后，与Flask交互更好，极客必备。
 
-## Sample
+## 示例
 
 <div>
   <img src="flask-bokeh-chart.png" style="max-width: 50%; border:0; box-shadow: none; padding-top:20px" alt="flask and bokeh">
