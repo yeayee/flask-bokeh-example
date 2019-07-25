@@ -17,8 +17,8 @@ def index():
 @app.route('/bokeh')
 def bokeh():
 
-    # init a basic bar chart:
-    # http://bokeh.pydata.org/en/latest/docs/user_guide/plotting.html#bars
+
+	# 基本绘图
     fig = figure(plot_width=600, plot_height=600)
     fig.vbar(
         x=[1, 2, 3, 4],
@@ -28,11 +28,13 @@ def bokeh():
         color='navy'
     )
 
-    # grab the static resources
+	
+	# Bokeh JS CSS
     js_resources = INLINE.render_js()
-    css_resources = INLINE.render_css()
+	css_resources = INLINE.render_css()
 
-    # render template
+
+	# 绘图数据	
     script, div = components(fig)
     html = render_template(
         'index.html',
@@ -41,7 +43,8 @@ def bokeh():
         js_resources=js_resources,
         css_resources=css_resources,
     )
-    return encode_utf8(html)
+	
+    return html
 
 
 if __name__ == '__main__':
