@@ -1,6 +1,6 @@
 # Flask Bokeh 交互
 
-## 假定Flask Web开发（狗书）
+## 假定基本熟悉Flask Web开发（狗书）
 
 ## 如何运行？
 
