@@ -1,15 +1,15 @@
-# Flask Bokeh Example
+# Flask Bokeh 交互
 
-## Want to learn how to build this project?
+## 假定Flask Web开发（狗书）
 
-Check out the [tutorial](tutorial.md).
+## 如何运行？
 
-## Want to use this project?
+1. 下载代码
+1. CMD路径切换至下载文件夹中
+1. 运行`python app.py`
+1. 在浏览器访问127.0.0.1
 
-1. Fork/Clone
-1. Create and active a virtualenv
-1. Install dependencies
-1. `python app.py`
+1. 在Bokeh1.0版本后，与Flask交互更好，极客必备。
 
 ## Sample
 
